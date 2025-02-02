@@ -9,7 +9,7 @@ import { Menu, X } from "lucide-react";
 
 
 
-function Header() {
+function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
     
   return (
@@ -82,4 +82,4 @@ function Header() {
   )
 }
 
-export default Header
+export default Navbar;
