@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import image from "../../assets/image.png";
 import profile from "../../assets/nawlesh.jpg";
-import SkillSet from '../skill-set/skillSet';
+import SkillSet from '../Skill-set/SkillSet.jsx';
 import { Link, Route, Routes } from 'react-router-dom';
 import Dashboard from '../Dashboard/Dashboard';
 import Sidebar from './Sidebar';
