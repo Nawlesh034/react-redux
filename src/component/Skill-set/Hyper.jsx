@@ -7,7 +7,7 @@ function Hyper() {
     const dispatch = useDispatch(); 
   return (
     <div className='flex flex-col md:flex-row items-center bg-white border border-gray-300 rounded-xl shadow-md max-w-[40rem] p-6 md:p-8 gap-4 w-full'>
-    <div className='flex flex-col gap-4 w-full md:w-auto  md:justify-start'>
+    <div className='flex flex-col md:flex-row gap-4 w-full md:w-auto  md:justify-between'>
       <img src={html} alt='HTML5 Logo' className='w-16' />
       <div className=' md:text-left'>
         <h3 className='text-lg font-bold'>Hyper Text Markup Language</h3>
