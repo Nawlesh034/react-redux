@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { closePopup, updateStats } from "../../app/slice";
 import html from "../../assets/html-5.png";
 
-const TransparentPop = () => {
+const Transparent = () => {
   const open = useSelector((state) => state.popup.open);
   const dispatch = useDispatch();
 
@@ -69,4 +69,4 @@ const TransparentPop = () => {
   );
 };
 
-export default TransparentPop;
+export default Transparent;

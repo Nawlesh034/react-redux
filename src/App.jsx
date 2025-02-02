@@ -4,7 +4,7 @@ import "@fontsource/poppins/500.css"; // Import specific weight
 import "@fontsource/poppins/700.css"; // Bold version
 
 import Header from './component/Header/Header.jsx'
-import TransparentPop from './component/skill-set/TransparentPop.jsx'
+import Transparent from './component/Skill-set/Transparent.jsx';
 
 
 
@@ -14,7 +14,7 @@ function App() {
   return (
     <>
      <Header/>
-     <TransparentPop/>
+     <Transparent/>
     </>
   )
 }
